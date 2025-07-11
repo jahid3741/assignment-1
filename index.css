@@ -1,6 +1,8 @@
 /*nav style*/
-main{
-    color: #F5F8FF;
+.background-bg{
+    background-color: #F5F8FF;
+    margin: 0px;
+    padding: 0;
 }
 header{
     background-image: url('/Hero-bg.png');
@@ -39,15 +41,66 @@ header{
     text-align: center;
 }
 /*action styles*/
+.action-content{
+    margin: 140px;
+}
 .action{
     display: flex;
     justify-content: space-between;
+    margin: 0;
 }
 .action-content-title{
-    color: black;
+    color: rgb(45, 38, 38);
+   
 }
-.action-content-descritpion{
-    color: #78768a;
-    max-width: 1140px;
-    margin: ;
+.action-content-description{
+    margin: 140px;
 }
+.pic{
+    border-radius: 48px;
+    margin: 50px 150px 50px 0px;    
+}
+/*Productive Users Section*/
+.productive-users-section {
+  background-color: #E5E7FF;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 40px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.productive-users-section h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-number {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #3b82f6;
+  margin-bottom: 5px;
+}
+
+.stat-description {
+  font-size: 1em;
+  color: #666;
+  text-align: center;
+}
+
+

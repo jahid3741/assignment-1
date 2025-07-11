@@ -203,3 +203,23 @@ header{
 .form{
     border-radius: 10px;
 }
+
+/*footer-section styles*/
+.website{
+    text-align: center;
+}
+
+.Website-name{
+    margin-top: 104px;
+    font-size:50px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.about-items{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+}
